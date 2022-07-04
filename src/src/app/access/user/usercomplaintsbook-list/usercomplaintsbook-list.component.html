@@ -1,0 +1,60 @@
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav" style="opacity: 1;background-color: rgba(52,58,64,0.75);">
+   <div class="container">
+       <a class="navbar-brand js-scroll-trigger" routerLink="/home" style="color: rgb(255, 85, 85);">
+           <img class="sc-fsykka-0 iPyvAu" src="https://live.pystatic.com/webassets/AppscoreWeb/monolith/4.0.51/images/monolith-pedidosya_red.e74f7698.svg" alt="logo">
+       </a>
+   
+       <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(255, 85, 85);">
+           <i class="fa fa-bars" style="color: rgba(255, 255, 255, 0.75);"></i>
+       </button>
+   
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+           <ul class="nav navbar-nav ml-auto text-uppercase">
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color:rgb(255, 85, 85);"><strong>Administracion</strong></a>
+                   <div class="dropdown-menu" style="background-color: rgba(52,58,64,0.75);">
+                       <a class="dropdown-item" style="color:rgb(255, 85, 85);"routerLink="/user/complaints/new">Registrar Reclamos</a>
+                       <a class="dropdown-item" style="color:rgb(255, 85, 85);"routerLink="/user/complaints/list">Listar Reclamos</a>
+                   </div>
+               </li>
+           </ul>
+           <a class="btn btn-primary text-black-50 border-dark" role="button" routerLink="/login" style="font-family: Montserrat, sans-serif;font-weight: normal;background-color: rgb(255, 85, 85);border:none;">Salir</a>
+       </div>
+   </div>
+</nav>
+
+<section id="portfolio" style="padding: 205px 0px;background-image: url(&quot;assets/img/backgrounds/about-bg.webp&quot;);">
+    <div class="container" style="margin-top: 90px;">
+       <div class="row justify-content-center" style="margin-bottom: -15px;">
+          <div class="login-dark" style="background-image: none;width: 95%;background-color: rgba(255,255,255,0.9);padding: 40px;border-radius: 4px;box-shadow: 3px 3px 4px rgba(0,0,0,0.2);height: auto;">
+             <h2 class="text-center" style="color: rgb(255, 85, 85); font-size: 26px; margin-bottom:20px;">Listado de Reclamos</h2>
+             <a class="btn btn-primary" role="button" routerLink="/user/complaints/new" style="font-family: Montserrat, sans-serif;font-weight: normal;background-color: rgb(255, 85, 85);margin: 15px;margin-right: 0;margin-left: 0;color: rgba(255,255,255,0.9);">Agregar Reclamo</a>
+             <div
+                class="table-responsive table-striped" style="border-radius: 10px;">
+                <table class="table" style="margin:0px;">
+                   <thead style="background-color: rgba(52,58,64,0.75);color: rgb(255,255,255);">
+                      <tr>
+                         <th class="align-middle"># Registro</th>
+                         <th class="align-middle">Fecha</th>
+                         <th class="align-middle"><strong>Tipo</strong><br></th>
+                         <th class="align-middle"><strong>Estado</strong><br></th>
+                         <th class="align-middle" style="text-align: center;"></th>
+                         <th class="align-middle" style="text-align: center;"></th>
+                      </tr>
+                   </thead>
+                   <tbody>
+                        <tr>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle"><em>2022-05-20</em><br></td>
+                            <td class="align-middle">Reclamo<br></td>
+                            <td class="align-middle">Abierto<br></td>
+                            <td class="text-center"><a href="#" class="btn btn-outline-dark"><i class="fa fa-pencil"></i></a></td>
+                            <!-- <td class="text-center"><a href="#" class="btn btn-outline-danger"><i class="fa fa-remove"></i></a></td> -->
+                        </tr>
+                   </tbody>
+                </table>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>

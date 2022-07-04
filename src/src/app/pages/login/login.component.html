@@ -1,0 +1,45 @@
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav" style="opacity: 1;background-color: rgba(52,58,64,0.75);">
+  <div class="container">
+      <a class="navbar-brand js-scroll-trigger" routerLink="/home" style="color: rgb(255, 85, 85);">
+          <img class="sc-fsykka-0 iPyvAu" src="https://live.pystatic.com/webassets/AppscoreWeb/monolith/4.0.51/images/monolith-pedidosya_red.e74f7698.svg" alt="logo">
+      </a>
+  
+      <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="background-color: rgb(255, 85, 85);">
+          <i class="fa fa-bars" style="color: rgba(255, 255, 255, 0.75);"></i>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="nav navbar-nav ml-auto text-uppercase">
+              <li class="nav-item" role="presentation">
+                  <a class="nav-link active js-scroll-trigger" routerLink="/aboutus" style="color: rgb(255, 85, 85);"><strong>Quiénes somos</strong></a>
+              </li>
+          </ul>
+          <a class="btn btn-primary text-black-50 border-dark" role="button" routerLink="/login" style="font-family: Montserrat, sans-serif;font-weight: normal;background-color: rgb(255, 85, 85);border:none;">Acceder</a>
+      </div>
+  </div>
+</nav>
+
+<div class="login-dark" style="background-image: url(&quot;assets/img/backgrounds/about-bg.webp&quot;);">
+  <section class="vh-100">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+              <h3 class="mb-5"></h3>
+              <div class="form-outline mb-4">
+                <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="Correo Electrónico" />
+              </div>
+              <div class="form-outline mb-4">
+                <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="Contraseña"/>
+              </div>
+              <button routerLink="/admin/home" class="btn btn-primary btn-lg btn-block" style="background-color: #3b9847;" type="submit">Iniciar sesión</button>
+              <hr class="my-4">
+              <button routerLink="/login/register" class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;" type="submit">Crear cuenta nueva</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
